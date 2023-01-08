@@ -1,0 +1,58 @@
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family:Century School;}
+
+
+body{ background: url(https://assets.turismocity.com/cdn-cgi/image/format=auto,width=500,fit=scale-down/Cual_es_el_mes_mas_barato_para_viajar_en_Argentina.jpeg);
+    background-size: 100vw 100vh;}
+
+nav{margin:auto;
+    max-width: 2000px;
+	background-color:#363636;  
+    font-size: 22px;}
+
+nav a{
+	display: inline-block;
+	text-decoration:none;
+    font-family:forte;
+	color:whitesmoke; 
+	margin: 0px; 
+	padding: 5px 5px;}
+
+nav a:hover {
+	background-color:darksalmon;
+	color:black;}
+
+.menu-horizontal{
+	list-style: none;
+	display:flex;
+    justify-content:space-around;}
+
+.menu-horizontal > li > a{
+	display:flex; 
+	padding: 10px 75px;
+	text-decoration: none;}
+
+.menu-vertical{
+	position:absolute;
+	display:none;
+	list-style:none;
+	width: 262px;
+    background-color: rgba(10, 10, 10, .5);}
+
+.menu-horizontal li:hover .menu-vertical{
+	display:block;}
+
+.menu-vertical li a{
+	display: block;
+    margin-top: auto;
+    text-decoration: none;
+    padding: (15px, 15px, 17px, 15);}
+
+.encabezado-img h1{ text-align:left; 
+  padding-top: 120px;
+  font-family:elephant;
+  color:azure;
+  font-size: 70px;} 

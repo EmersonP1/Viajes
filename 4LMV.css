@@ -1,0 +1,19 @@
+h1 	{font-family:forte;
+    font-size:40px;
+    color:beige;}
+
+div{ font-family: inherit;
+     font-size: 17px;
+     color:aliceblue}
+
+dt{font-family:forte;
+    font-size: 30px;
+    font-weight: bold;
+    color:aqua;}
+
+li { font-family: inherit;
+    font-size: 17px;
+    color:aliceblue;}
+
+
+

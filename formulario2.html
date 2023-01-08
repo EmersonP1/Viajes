@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>PAGINA WEB </title>
+	<link rel="stylesheet" href="FM.css">
+</head>
+<body>
+   
+
+  
+    
+        <form action="submeter-formulario.php" method="post">  
+    <div class="contact_form">
+ <h1><center>Formulario <center> </h1>
+<!-- Create Form -->
+    <form id="form">
+ 
+<!-- Details -->
+<div class="form-control"><label for="name" id="label-name"> Nombre: </label>
+ 
+<!-- Input Type Text -->
+<input type="text"id="name" placeholder="Escribe tu nombre" /></div>
+  
+<div class="form-control">
+<label for="Apllido" id="label-apellido">Apellido:</label>
+ 
+<!-- Input Type Email-->
+<input type="apellido"id="apellido"placeholder="Escribe tu apellido" /></div>
+ 
+
+<div class="form-control">
+<label> Sexo: </label>
+<!-- Input Type Radio Button -->
+<label for="1"><input type="radio" name="estacion value"=hombre/> Masculino </input></label>
+<label for="2"><input type="radio" name="estacion value"=Femenino/> Femenino</input></label>
+
+
+<div class="form-control">
+<label> ¿Crees que el estilo es el adecuado? </label>
+            
+<!-- Input Type Radio Button -->
+<label for="1">  <input type="radio" name="estacion value"=Si/> Si </input></label>
+<label for="2">  <input type="radio" name="estacion value"=No/> No </input></label>
+
+                 
+  <p>
+    <label for="¿Qué te pareció nuestra página web?">¿Que te dificulto al momento de usar y consultar la informacion?</label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>  
+
+   <p>
+            <label for="¿Qué le añadirías o quitarías a la página web?">¿Como crees que la hariamos conocer mas la pagina web?
+            </label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>  
+                 
+    <p>                    
+    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+  </p>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+form {font-family:elephant;
+   font-size: 20px;
+   position:relative;    
+   top: 0px; 
+   left: 475px;}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 320px; 
+  height: 35px; 
+  border-radius: 6px; 
+  border-color:aliceblue;
+  margin-top: 5px; }
+   
+button{
+  height: 50px; 
+  padding-left: 6px;  
+  margin-top: 2px;   
+  text-transform: uppercase;
+  background-color:darksalmon;
+  border-color:black; 
+  border-radius: 10px;  
+  width: 410px;}
